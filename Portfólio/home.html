@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css" class="css">
+    <title>Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/243a7fb6ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="colored">
+        <div class="top_layer">
+            <a class="title">Meu Portfólio</a>
+            <div class="nav_bar">
+                <a href="home.html">Home</a>
+                <a href="sobre.html">Sobre Mim</a>
+                <a href="cronograma.html">Cronograma</a>
+                <a href="projetos.html">Projetos</a>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="data">
+            <div class="my_image">
+                <!-- Image here -->
+            </div>
+            <div class="info">
+                <a class="title_1">AUGUSTO SARAVIA TAVARES</a>
+                <a class="title_2">Estudante de Programação</a>
+                <a>Olá, bem vindo ao meu portfólio! Aqui, vou mostrar alguns dos projetos que fiz ao longo da minha caminhada no Ensino Médio.</a>
+                <div class="socials">
+                    <div class="social">
+                        <img class="image" src="assets/iglogo.png" onclick="redirectIG()">
+                    </div>
+                    <div class="social">
+                        <img class="image" src="assets/gitlogo.png" onclick="redirectGIT()">
+                    </div>
+                    <div class="social">
+                        <img class="image" src="assets/logoIn.png" onclick="redirectIN()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const redirectIG = () => {
+            location.href = "https://www.instagram.com/a.s.tavares/";
+        }
+        
+        const redirectGIT = () => {
+            location.href = "https://github.com/OrinhoAugusto";
+        }
+
+        const redirectIN = () => {
+            location.href = "https://www.linkedin.com/in/augusto-saravia-tavares-81b49a231/";
+        }
+    </script>
+</body>
+
+</html>
